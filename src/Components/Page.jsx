@@ -1,0 +1,67 @@
+import React from 'react';
+import '../style.css';
+import { BsCaretDownFill } from 'react-icons/bs';
+import { FaPlayCircle } from 'react-icons/fa';
+import Category from './Category';
+import TopSelling from './TopSelling';
+
+const Page = () => {
+    return (
+        <div className=''>
+            {/* navbar and banner */}
+            <div className='bg-img'>
+                {/* navbar */}
+                <div className='container mx-auto flex items-center justify-between pt-10'>
+                    <div className='w-32'>
+                        <a className='text-5xl font-extrabold' href="">Jadoo</a>
+                    </div>
+                    <div className='flex gap-14'>
+                    <li className='list-none'><a href="#" className='text-2xl text-bold text-black'>Home</a></li>
+                        <li className='list-none'><a href="#" className='text-2xl text-bold'>Hotels</a></li>
+                        <li className='list-none'><a href="#" className='text-2xl text-bold'>Flights</a></li>
+                        <li className='list-none'><a href="#" className='text-2xl text-bold'>Booking</a></li>
+                        
+                    </div>
+                    <div className='flex gap-10'>
+                        <button className='text-2xl text-bold'>Login</button>
+                        <button className='text-2xl text-bold'>SignUp</button>
+                        <div className='flex items-center'>
+                            <li className='text-2xl text-bold list-none'>EN</li>
+                            <li className='list-none'><BsCaretDownFill /></li>
+                        </div>
+                        
+                    </div>
+                </div>
+                {/* navbar */}
+
+                {/* banner */}
+                <div className='container mx-auto mt-16 flex'>
+                    <div className='lg:mt-[100px]'>
+                        <h2 className='font-bold text-[24px] mb-[20px] text-[#DF6951]'>Best Destinations around the world</h2>
+                        <h1 className='font-bold text-[65px] text-[#181E4B] mb-[20px]'>Travel, enjoy <br /> and live a new <br /> and full life</h1>
+                        <h5 className='font-normal text-[16px] mb-7'>Built Wicket longer admire do barton vanity itself do in it. <br /> Preferred to sportsmen it engrossed listening. Park gate <br /> sell they west hard for the.</h5>
+
+                        <div className='flex items-center'>
+                            <button className='w-[170px] h-[60px] rounded-[10px] mr-11'  style={{ backgroundColor: 'rgb(241, 165, 1)' }}>Find out me</button>
+                            <button className="w-[52px] h-[52px] bg-[#DF6951]  mr-5 rounded-full flex items-center justify-center">
+                                <FaPlayCircle className="text-white w-[28px] h-[28px]" />
+                            </button>
+                            <h4>play Demo</h4>
+
+                        </div>
+                    </div>
+                    <div className='lg:ml-[200px] mb-[95px]'>
+                        <img className='w-[765px] h-[765px] object-cover' src="/src/Traveller 1.png" alt="" />
+                    </div>
+                </div>
+                {/* banner */}
+
+            </div>
+            {/* navbar and banner */}
+            <Category></Category>
+            <TopSelling></TopSelling>
+        </div>
+    );
+};
+
+export default Page;
