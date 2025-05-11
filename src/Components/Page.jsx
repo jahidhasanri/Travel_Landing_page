@@ -5,6 +5,7 @@ import { FaPlayCircle } from 'react-icons/fa';
 import Category from './Category';
 import TopSelling from './TopSelling';
 import TripBook from './TripBook';
+import Testimonial from './Testimoniyal';
 
 const Page = () => {
     return (
@@ -62,6 +63,7 @@ const Page = () => {
             <Category></Category>
             <TopSelling></TopSelling>
             <TripBook></TripBook>
+            <Testimonial></Testimonial>
         </div>
     );
 };
