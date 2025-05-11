@@ -3,13 +3,13 @@ import { FaLocationArrow } from 'react-icons/fa';
 
 const TopSelling = () => {
     return (
-        <div className='container mx-auto mt-[123px]'>
+        <div className='lg:container mx-auto mt-[123px]'>
             <h5 className='text-2xl font-medium text-center mb-4'>Top Selling</h5>
            <h1 className='text-[50px] font-semibold text-center mb-16'>Top Destinations</h1>
 
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
 
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px]'
@@ -25,7 +25,7 @@ const TopSelling = () => {
     <p>10 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px]'
@@ -41,7 +41,7 @@ const TopSelling = () => {
     <p>12 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px] w-full object-cover'
@@ -57,7 +57,7 @@ const TopSelling = () => {
     <p>28 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px] w-full '
@@ -73,7 +73,7 @@ const TopSelling = () => {
     <p>7 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px] w-full object-cover'
@@ -89,7 +89,7 @@ const TopSelling = () => {
     <p>10 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px] w-full '
@@ -105,7 +105,7 @@ const TopSelling = () => {
     <p>14 Days Tour</p>
     </div>
 </div>
-<div className="card bg-base-100 w-[350px] shadow-xl">
+<div className="card bg-base-100 md:w-[350px] shadow-xl">
   <figure>
     <img
     className='h-[300px]'

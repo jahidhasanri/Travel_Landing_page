@@ -21,13 +21,13 @@ const Testimonial = () => {
       {/* Right Section */}
       <div className="relative md:w-1/2">
         {/* Back Card */}
-        <div className="absolute top-44 left-[300px] w-full max-w-md  bg-white shadow-md rounded-xl p-6 opacity-70 z-0">
+        <div className="absolute lg:top-44 lg:left-[300px] w-full max-w-md  bg-white shadow-md rounded-xl p-6 opacity-70 z-0">
           <h5 className="text-[#14183E] font-bold mb-1">Chris Thomas</h5>
           <p className="text-[#5E6282]">CEO of Red Button</p>
         </div>
 
         {/* Front Card */}
-        <div className="relative w-full max-w-md bg-white shadow-lg rounded-xl left-56 p-6 z-10">
+        <div className="relative w-full max-w-md bg-white shadow-lg rounded-xl lg:left-56 p-6 z-10">
           <div className="flex items-start gap-4">
             {/* Profile Image */}
             <img

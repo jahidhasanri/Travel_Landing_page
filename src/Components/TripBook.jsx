@@ -6,12 +6,12 @@ import { MdMenuBook } from 'react-icons/md';
 
 const TripBook = () => {
     return (
-        <div className='container mx-auto mt-[186px]'>
-            <div className='flex items-center justify-between'>
+        <div className='lg:container mx-auto mt-[186px]'>
+            <div className='md:flex items-center justify-between'>
 
            <div>
-                <h5 className='font-normal text-[18px]'>Easy and Fast</h5>
-                <h1 className='font-bold text-[50px]'>Book your next trip <br />
+                <h5 className='text-center lg:text-start font-normal text-[18px]'>Easy and Fast</h5>
+                <h1 className='md:font-bold md:text-[50px]'>Book your next trip <br />
                 in 3 easy steps</h1>
                 <div className='flex items-center gap-3 mb-5'>
                     <div><img src="/src/images/Group 7.png" alt="" /></div>
@@ -44,7 +44,7 @@ const TripBook = () => {
 
            </div>
           
-           <div className="card bg-base-100 w-96 shadow-xl">
+           <div className="card bg-base-100 lg:w-96 shadow-xl">
                     <figure className="px-10 pt-10">
                     <img
                         src="/src/images/Rectangle 17.jpeg"
