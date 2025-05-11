@@ -6,6 +6,8 @@ import Category from './Category';
 import TopSelling from './TopSelling';
 import TripBook from './TripBook';
 import Testimonial from './Testimoniyal';
+import Slide from './Slide';
+import SubscribeForm from './SubcribeFrom';
 
 const Page = () => {
     return (
@@ -64,6 +66,8 @@ const Page = () => {
             <TopSelling></TopSelling>
             <TripBook></TripBook>
             <Testimonial></Testimonial>
+            <Slide></Slide>
+            <SubscribeForm></SubscribeForm>
         </div>
     );
 };
