@@ -4,6 +4,7 @@ import { BsCaretDownFill } from 'react-icons/bs';
 import { FaPlayCircle } from 'react-icons/fa';
 import Category from './Category';
 import TopSelling from './TopSelling';
+import TripBook from './TripBook';
 
 const Page = () => {
     return (
@@ -60,6 +61,7 @@ const Page = () => {
             {/* navbar and banner */}
             <Category></Category>
             <TopSelling></TopSelling>
+            <TripBook></TripBook>
         </div>
     );
 };
